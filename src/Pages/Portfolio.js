@@ -77,28 +77,47 @@ function Portfolio() {
 
       {/* ✅ Main Content */}
       <div id="home" className="container mt-5 pt-5 bg-white text-black" style={{ paddingTop: "100px" }}>
-        <div className="row align-items-center">
-          <aside className="col-md-4 text-center mb-4">
-            <img
-              src="/images/profile.jpg"
-              alt="Developer Profile"
-              className="w-100 rounded-circle shadow-lg border border-primary"
-              style={{ maxWidth: "200px" }}
-            />
-          </aside>
-          <main className="col-md-8">
-            <motion.p 
-              className="fs-5"
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-            >
-              Hi, I'm a <strong>Python Developer, Frontend Developer, and Full Stack Developer</strong>. 
-              I specialize in building efficient and scalable web applications. Welcome to my portfolio!
-            </motion.p>
-          </main>
-        </div>
-      </div>
+  <div className="row align-items-center">
+    <aside className="col-md-4 text-center mb-4">
+      <img
+        src="/images/profile.jpg"
+        alt="Developer Profile"
+        className="w-100 rounded-circle shadow-lg border border-primary"
+        style={{ maxWidth: "200px" }}
+      />
+    </aside>
+    <main className="col-md-8">
+      <motion.h2
+        className="fw-bold text-primary"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+      >
+        Welcome to My Portfolio!
+      </motion.h2>
+      <motion.p
+        className="fs-5"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+      >
+        Hi there! I'm <strong>Madhu Sudhan Reddy</strong>, a web developer passionate about crafting efficient and scalable web applications.  
+        My work focuses on creating seamless user experiences, optimized performance, and robust solutions for complex challenges.
+      </motion.p>
+      <motion.p
+        className="fs-6"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.2 }}
+      >
+        Feel free to explore my projects to see how I bring ideas to life through code. Whether you're a fellow developer, recruiter,  
+        or just curious about web development, I'm excited to share my journey and expertise with you.  
+        <strong>Let's connect and build something amazing together!</strong> 🚀
+      </motion.p>
+    </main>
+  </div>
+</div>
+
 
       {/* ✅ Projects Section */}
       <div id="projects" className="container mt-5 bg-gray-900 text-white p-4 rounded">
