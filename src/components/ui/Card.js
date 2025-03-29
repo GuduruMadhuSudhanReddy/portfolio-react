@@ -1,10 +1,11 @@
 import React from "react";
 
-// Basic Card Component with Enhanced Styling
+// Basic Card Component with RGBA Background
 export function Card({ children, className = "" }) {
   return (
     <div
-      className={`bg-gray-800 p-6 rounded-2xl shadow-lg border border-gray-700 hover:shadow-xl transition-all duration-300 ${className}`}
+      className={`p-6 rounded-2xl shadow-lg border hover:shadow-xl transition-all duration-300 ${className}`}
+      style={{ backgroundColor: "rgba(65, 80, 76, 1)", borderColor: "rgba(0, 0, 255, 0.5)" }} // Sky blue with opacity
     >
       {children}
     </div>
