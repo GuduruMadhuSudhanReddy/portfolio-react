@@ -77,7 +77,7 @@ function Portfolio() {
               <Nav.Link href="#skills" className="text-white">Skills</Nav.Link>
               <Nav.Link href="#certifications" className="text-white">Certifications</Nav.Link>
               <Nav.Link href="#contact" className="text-white">Contact</Nav.Link>
-              <Nav.Link href="/resume.pdf" download className="text-white">Resume</Nav.Link>
+              <Nav.Link href="/reg.pdf" download className="text-white">Resume</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
